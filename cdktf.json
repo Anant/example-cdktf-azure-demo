@@ -1,0 +1,16 @@
+{
+  "language": "python",
+  "app": "pipenv run python main.py",
+  "projectId": "f51acee4-7f39-4064-9360-268e3419383c",
+  "sendCrashReports": "true",
+  "terraformProviders": ["azurerm@~> 2.0"],
+  "terraformModules": [{
+    "name": "terraform_azure_yugabyte",
+    "source": "github.com/yugabyte/terraform-azure-yugabyte.git"
+  }],
+  "codeMakerOutput": "imports",
+  "context": {
+    "excludeStackIdFromLogicalIds": "true",
+    "allowSepCharsInLogicalIds": "true"
+  }
+}
